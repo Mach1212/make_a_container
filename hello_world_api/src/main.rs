@@ -10,7 +10,10 @@ fn main() {
 fn App(cx: Scope) -> Element {
     cx.render(rsx! {
         div {
-            "Hello me"
+            "Hello mach12"
+        }
+        p {
+            "Proof it worked"
         }
     })
 }
